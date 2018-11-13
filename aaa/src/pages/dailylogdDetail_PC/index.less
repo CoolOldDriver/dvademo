@@ -1,0 +1,74 @@
+.dailyDetail {
+    width: auto;
+    margin: 24px 40px;
+
+    .dailyDetail_left {
+        width: 65%;
+        padding: 20px;
+
+        .dalilyDetail_message {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+
+            .packcontent {
+                font-size: 14px;
+                width: auto;
+                div {
+                    margin-bottom: 10px;
+                }
+
+                .forday{
+                    margin-left: 5px;
+                    .write {
+                        color: #3388DD;
+                    }
+                }
+
+                .readerImageBox {
+                    position: absolute;
+                    left:130px;
+                    top: 200px;
+                    .readerImage {
+                        display: inline-block;
+                        img {
+                            width: 25px;
+                            height: 25px;
+                            border: 1px solid #ccc;
+                            border-radius:50%;
+                        }
+                    }
+                }
+                .etcNumber {
+                    position: absolute;
+                    left: 280px;
+                    top: 200px;
+                }
+            }
+        }
+
+        .dalilyDetail_list {
+            margin-top: 20px;
+            background: #fff;
+            border-radius: 10px;
+            padding: 10px;
+            height: auto;
+            .daily_tabs {
+                border-radius: 15px;
+            }
+        }
+
+        :global(.ant-tabs-nav-container) {
+            overflow: hidden;
+            left: 200px;
+            height: 33px;
+        }
+
+    }
+}
+
+.modal-view {
+    position: absolute;
+    left:100px;
+    top:200px;
+}

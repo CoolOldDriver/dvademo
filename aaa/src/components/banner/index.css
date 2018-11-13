@@ -1,0 +1,42 @@
+.logo img {
+    width: 40px;
+    height: 45px;
+}
+
+.logo {
+    background: #ffffff;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 10px; 
+    font-size: 16px;
+}
+
+/* .language_icon {
+    display: inline-block;
+    position: absolute;
+    height: 30px;
+    color:#fff;
+    font-size: 17px;
+    
+}*/
+
+.language_icon {
+    margin-left: 200px;
+}
+
+.guide_icon {
+    position: absolute;
+    right: 200px;
+    top: 20px;
+}
+
+/* .anticon-question-circle-o {
+    display: inline;
+    padding: 0px;
+} */
+
+.changeSchool {
+    position: absolute;
+    top: 20px;
+    right: 300px;
+}

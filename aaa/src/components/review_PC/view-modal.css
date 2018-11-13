@@ -1,0 +1,20 @@
+.content_post {
+    /* position: absolute;
+    top: 330px;
+    left: 10px; */
+}
+
+.textarea {
+    width: 650px;
+    /* right: 535px;
+    bottom: 250px; */
+}
+
+.btn-post {
+    position: absolute;
+    border-radius: 5px;
+    color: #fff;
+    right: -90px;
+    top: 10px;
+   
+}

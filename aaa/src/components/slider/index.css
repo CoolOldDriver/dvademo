@@ -1,0 +1,33 @@
+.slider {
+  height: 5.81333333rem;
+  overflow: hidden;
+  padding: 0.13333333rem 0.13333333rem 0 0.13333333rem;
+}
+.slider img {
+  width: 100%;
+}
+.slider .slick-arrow {
+  width: 0.53333333rem;
+  height: 0.53333333rem;
+  background: 0 0;
+  border-radius: 50%;
+  z-index: 1000;
+}
+.slider .swiper-slide {
+  height: 5.81333333rem;
+  overflow: hidden;
+}
+.slider .slick-prev {
+  left: 0;
+}
+.slider .slick-next {
+  right: 0;
+}
+.slider .slick-next:before,
+.slider .slick-prev:before {
+  width: 100%;
+  font-size: 20px;
+  line-height: 0.53333333rem;
+  color: rgba(255, 255, 255, 0.65);
+  border-radius: 50%;
+}

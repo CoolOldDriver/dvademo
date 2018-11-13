@@ -1,0 +1,125 @@
+.questionpool{
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    background:#fff;
+    //margin-bottom:2rem;
+    position:relative;
+    .header{
+        height:56/37.5rem;
+        line-height: 56/37.5rem;
+        display: flex;
+        justify-content: space-between;
+        padding:0 24/37.5rem;
+        border-bottom:1px solid #E8E8E8;
+        .back{
+            i{
+                margin-right:5/37.5rem;
+            }
+        }
+        .statebox{
+            display: flex;
+            align-items: center;
+            .state{
+                width:13/37.5rem;
+                height:13/37.5rem;
+                margin-right:4/37.5rem;
+            }
+        }
+        .solved{
+            color:rgba(0,0,0,0.45);
+            .state{
+                background:rgba(0,0,0,0.45);
+            }
+        }
+        .unsolved{
+            color:#3388DD;
+            .state{
+                background: #3388DD;
+            }
+        }
+    }
+    .content{
+        margin-top:8/37.5rem;
+        margin-bottom:18/37.5rem;
+        padding:0 32/37.5rem;
+        font-size: 14px;
+        .value{
+            color: rgba(0,0,0,0.65);
+            margin-bottom:16/37.5rem;
+        }
+        p{
+            margin-bottom:8/37.5rem;
+            color: rgba(0,0,0,0.85);
+            span{
+                color: rgba(0,0,0,0.65);
+            }
+        }
+    }
+    .solution{
+        border-top:1px solid #E8E8E8;
+        padding:8/37.5rem 32/37.5rem 15/37.5rem 32/37.5rem;
+        i,span{
+            color: #3388DD;
+            font-size: 14px;
+            line-height: 24/37.5rem;
+        }
+        i{
+            margin-right:6/37.5rem;
+        }
+        &-value{
+            font-size: 14px;
+            color: rgba(0,0,0,0.65);
+            line-height: 22px;
+        }
+    }
+    .ques-util{
+        height:50/37.5rem;
+        line-height:50/37.5rem;
+        border-top:1px solid #E8E8E8;
+        border-bottom:1px solid #E8E8E8;
+        display: flex;
+        div{
+            flex:1;
+            text-align: center;
+        }
+        div.border{
+            position: relative;
+            font-size:14px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        div::after{
+            content:"";
+            position: absolute;
+            right:0;
+            top:36%;
+            width:1px;
+            height:14/37.5rem;
+            border-right:1px solid #E8E8E8;
+        }
+        div:last-child::after{
+            content:"";
+            width:1px;
+            border-right:none;
+        }
+        .activied{
+            color:#3388DD;
+        }
+    }
+    .cardcontent{
+       background:#f1f2f3;
+       padding:8/37.5rem 0;
+       padding-bottom:3rem;
+    }
+    .language_icon{
+      display: inline-block;
+      position: absolute;
+      color:#1890ff;
+      font-size: 17px;
+      cursor: pointer;
+      right: 0.5rem;
+      z-index: 99;
+      top: 0;
+    }
+}

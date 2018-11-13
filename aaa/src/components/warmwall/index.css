@@ -1,0 +1,169 @@
+.warmwall {
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.45);
+  letter-spacing: 0;
+  text-align: left;
+  background: #f1f2f3;
+  position: relative;
+  padding: 0 0.18666667rem;
+  margin-bottom: 1.4rem;
+}
+.warmwall .warmwall-content {
+  display: flex;
+  padding: 0.392rem 0.48rem 0.42666667rem 0.66666667rem;
+}
+.warmwall .warmwall-content .portrait {
+  width: 1.28rem;
+  height: 1.28rem;
+  overflow: hidden;
+  margin-right: 0.26666667rem;
+}
+.warmwall .warmwall-content .portrait img {
+  width: 100%;
+  border-radius: 50%;
+  border: 1px solid #E8E8E8;
+}
+.warmwall .warmwall-content .intro span {
+  display: inline-block;
+}
+.warmwall .warmwall-content .intro .name {
+  font-size: 16px;
+  color: #333333;
+  margin-right: 0.26666667rem;
+}
+.warmwall .warmwall-content .intro .type {
+  width: 0.8rem;
+  font-family: MicrosoftYaHei;
+  font-size: 10px;
+  color: #FFFFFF;
+  text-align: center;
+  background: #E5492E;
+  border-radius: 2px;
+  line-height: 0.42666667rem;
+}
+.warmwall .warmwall-content .intro .content {
+  line-height: 0.58666667rem;
+  width: 6.96rem;
+  height: 1.76rem;
+  overflow: hidden;
+  position: relative;
+}
+.warmwall .warmwall-content .intro .content .read {
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.warmwall .warmwall-content .intro .content .read .point {
+  font-weight: bold;
+  margin-right: 0.26666667rem;
+  margin-left: 0.10666667rem;
+}
+.warmwall .warmwall-content .intro .content .read .more {
+  font-size: 12px;
+  color: #3388DD;
+}
+.warmwall .warmwall-content .intro .content-auto {
+  line-height: 0.58666667rem;
+  width: 6.96rem;
+}
+.warmwall .warmwall-util {
+  width: 100%;
+  height: 1.22666667rem;
+  line-height: 1.22666667rem;
+  display: flex;
+  border-top: 1px solid #E8E8E8;
+  border-bottom: 1px solid #E8E8E8;
+  font-size: 14px;
+}
+.warmwall .warmwall-util div {
+  text-align: center;
+  flex: 1;
+}
+.warmwall .warmwall-util div i {
+  margin-right: 0.10666667rem;
+}
+.warmwall .warmwall-util div span {
+  display: inline-block;
+  color: #666666;
+}
+.warmwall .warmwall-util div.border::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 36%;
+  width: 1px;
+  height: 0.37333333rem;
+  background: #E8E8E8;
+}
+.warmwall .warmwall-util .review {
+  text-align: center;
+  display: flex;
+}
+.warmwall .warmwall-util .activite {
+  color: #3388DD;
+}
+.warmwall .warmwall-util .activite span {
+  color: #3388DD;
+}
+.warmwall .pulldownforday {
+  background: #f1f2f3;
+  height: 48px;
+  line-height: 48px;
+  font-family: MicrosoftYaHei;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+.warmwall .pulldownforday .iconfont {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.warmwall .pulldownforday i {
+  color: #3388DD;
+}
+.warmwall .warmwall-forday {
+  background: #f1f2f3;
+}
+.warmwall .warmwall-forday .forday {
+  background: #fff;
+  margin-bottom: 0.37333333rem;
+  border: 1px solid #E8E8E8;
+}
+.warmwall .warmwall-forday .forday-content {
+  padding: 0.49866667rem 0.82666667rem 0.37333333rem 1.04rem;
+}
+.warmwall .warmwall-forday .forday-content-intro {
+  font-size: 14px;
+  line-height: 0.64rem;
+}
+.warmwall .warmwall-forday .forday-content-portrait {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.warmwall .warmwall-forday .forday-content-portrait span {
+  margin-right: 0.13333333rem;
+  line-height: 0.53333333rem;
+}
+.warmwall .warmwall-forday .forday-content-portrait .portrait {
+  width: 0.53333333rem;
+  height: 0.53333333rem;
+  margin-right: 0.05333333rem;
+}
+.warmwall .warmwall-forday .forday-content-portrait .portrait img {
+  width: 100%;
+  border-radius: 50%;
+  border: 1px solid #E8E8E8;
+}
+.warmwall .warmwall-forday .forday-content-portrait .name {
+  color: rgba(0, 0, 0, 0.65);
+  line-height: 0.53333333rem;
+}
+.warmwall .warmwall-forday .forday:last-child {
+  margin-bottom: 0;
+}
+.warmwall > div {
+  background: #fff;
+}

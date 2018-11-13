@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+    <!-- 让当前viewport的宽度等于设备的宽度 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+  <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+
+
+  <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+  <title></title>
+  <link rel="stylesheet" href="index.css?v=3" type="text/css" />
+  <script>
+    window.globalLange = 'en';
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script>
+    window.baseURL =""
+    if (!dpr && !scale) {
+      var isAndroid = win.navigator.appVersion.match(/android/gi);
+      var isIPhone = win.navigator.appVersion.match(/iphone/gi);
+      var devicePixelRatio = win.devicePixelRatio; if (isIPhone) {
+        // iOS下，对于2和3的屏，用2倍的方案，其余的用1倍方案
+      if (devicePixelRatio >= 3 && (!dpr || dpr >= 3)) {
+        dpr = 3;
+      }
+        else if (devicePixelRatio >= 2 && (!dpr || dpr >= 2)){
+          dpr = 2;
+        } else { dpr = 1; }
+      }
+          else { // 其他设备下，仍旧使用1倍的方案
+            dpr = 1;
+          }
+          scale = 1 / dpr;
+        }
+      //document.activeElement.blur()
+  </script>
+  <script src="index.js?v=3" type="text/javascript"></script>
+</body>
+
+</html>

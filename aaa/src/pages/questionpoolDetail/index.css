@@ -1,0 +1,113 @@
+.questionpool {
+  font-family: PingFangSC-Medium;
+  font-size: 16px;
+  background: #fff;
+  margin-bottom: 2rem;
+}
+.questionpool .header {
+  height: 1.49333333rem;
+  line-height: 1.49333333rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.64rem;
+  border-bottom: 1px solid #E8E8E8;
+}
+.questionpool .header .back i {
+  margin-right: 0.13333333rem;
+}
+.questionpool .header .statebox {
+  display: flex;
+  align-items: center;
+}
+.questionpool .header .statebox .state {
+  width: 0.34666667rem;
+  height: 0.34666667rem;
+  margin-right: 0.10666667rem;
+}
+.questionpool .header .solved {
+  color: rgba(0, 0, 0, 0.45);
+}
+.questionpool .header .solved .state {
+  background: rgba(0, 0, 0, 0.45);
+}
+.questionpool .header .unsolved {
+  color: #3388DD;
+}
+.questionpool .header .unsolved .state {
+  background: #3388DD;
+}
+.questionpool .content {
+  margin-top: 0.21333333rem;
+  margin-bottom: 0.48rem;
+  padding: 0 0.85333333rem;
+  font-size: 14px;
+}
+.questionpool .content .value {
+  color: rgba(0, 0, 0, 0.65);
+  margin-bottom: 0.42666667rem;
+}
+.questionpool .content p {
+  margin-bottom: 0.21333333rem;
+  color: rgba(0, 0, 0, 0.85);
+}
+.questionpool .content p span {
+  color: rgba(0, 0, 0, 0.65);
+}
+.questionpool .solution {
+  border-top: 1px solid #E8E8E8;
+  padding: 0.21333333rem 0.85333333rem 0.4rem 0.85333333rem;
+}
+.questionpool .solution i,
+.questionpool .solution span {
+  color: #3388DD;
+  font-size: 14px;
+  line-height: 0.64rem;
+}
+.questionpool .solution i {
+  margin-right: 0.16rem;
+}
+.questionpool .solution-value {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.65);
+  line-height: 22px;
+}
+.questionpool .ques-util {
+  height: 1.33333333rem;
+  line-height: 1.33333333rem;
+  border-top: 1px solid #E8E8E8;
+  border-bottom: 1px solid #E8E8E8;
+  display: flex;
+}
+.questionpool .ques-util div {
+  flex: 1;
+  text-align: center;
+}
+.questionpool .ques-util div.border {
+  position: relative;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.questionpool .ques-util div::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 36%;
+  width: 1px;
+  height: 0.37333333rem;
+  border-right: 1px solid #E8E8E8;
+}
+.questionpool .ques-util div:last-child::after {
+  content: "";
+  width: 1px;
+  border-right: none;
+}
+.questionpool .ques-util .activied {
+  color: #3388DD;
+}
+.questionpool .cardcontent {
+  background: #f1f2f3;
+  padding: 0.21333333rem 0;
+  margin-bottom: 3rem;
+}

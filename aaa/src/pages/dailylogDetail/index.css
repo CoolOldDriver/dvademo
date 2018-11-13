@@ -1,0 +1,117 @@
+.dailyLog {
+  font-family: PingFangSC-Regular;
+  position: relative;
+  background: #f1f2f3;
+}
+.dailyLog .dailylogheader {
+  border-bottom: 1px solid #E8E8E8;
+  background: #fff;
+}
+.dailyLog .header {
+  height: 1.70666667rem;
+  line-height: 1.70666667rem;
+  position: relative;
+}
+.dailyLog .header div:nth-of-type(1) i {
+  color: #3388DD;
+  font-size: 18px;
+}
+.dailyLog .header .arrowRight {
+  position: absolute;
+  left: 0.53333333rem;
+  top: 0;
+  z-index: 14;
+}
+.dailyLog .header .data {
+  text-align: center;
+  position: relative;
+  z-index: 11;
+}
+.dailyLog .header .data .timeSelect {
+  font-size: 15px;
+  font-weight: bold;
+  color: #3388DD;
+}
+.dailyLog .header .data .timeSelect .calendar {
+  font-size: 14px;
+  margin-left: 0.1rem;
+}
+.dailyLog .header .seleCampus {
+  position: absolute;
+  top: 0;
+  right: 1.12rem;
+  font-size: 14px;
+  z-index: 15;
+  display: inline-block;
+  font-weight: bold;
+}
+.dailyLog .header .packswitch {
+  position: absolute;
+  top: 0;
+  right: 0.53333333rem;
+  z-index: 99;
+}
+.dailyLog .packcontent {
+  height: 2.26666667rem;
+  padding-left: 1.28rem;
+  font-size: 14px;
+  margin-bottom: 0.18666667rem;
+  color: rgba(0, 0, 0, 0.85);
+}
+.dailyLog .packcontent .forday {
+  display: flex;
+  margin-top: 0.16rem;
+}
+.dailyLog .packcontent .forday div::after {
+  content: ",";
+  color: #3388DD;
+}
+.dailyLog .packcontent .forday div:last-child::after {
+  content: " ";
+}
+.dailyLog .packcontent .forday span.write {
+  color: #3388DD;
+}
+.dailyLog .packcontent .reader {
+  display: flex;
+  margin-top: 0.16rem;
+}
+.dailyLog .packcontent .reader span {
+  margin-left: 0.21333333rem;
+  color: #666666;
+}
+.dailyLog .packcontent .reader .readerImageBox {
+  display: flex;
+}
+.dailyLog .packcontent .reader .readerImageBox .readerImage {
+  width: 0.53333333rem;
+  height: 0.53333333rem;
+  overflow: hidden;
+}
+.dailyLog .packcontent .reader .readerImageBox .readerImage img {
+  width: 100%;
+  border-radius: 50%;
+  border: 1px solid #E8E8E8;
+}
+.dailyLog .dailylogContent {
+  background: #f1f2f3;
+}
+.ant-tabs-nav {
+  width: 100%;
+  display: flex;
+}
+.ant-tabs-tab {
+  flex: 1;
+  width: 100%;
+  text-align: center;
+}
+.ant-tabs-nav .ant-tabs-tab-active {
+  width: 100%;
+}
+.ant-tabs-bar {
+  margin-bottom: 0.21333333rem;
+  background: #fff;
+}
+.ant-tabs-nav .ant-tabs-tab {
+  padding: 3.2%;
+}

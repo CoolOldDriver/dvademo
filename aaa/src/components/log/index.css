@@ -1,0 +1,131 @@
+.loglist {
+  background: #f1f2f3;
+  padding: 0.37333333rem 0.18666667rem;
+  font-family: PingFangSC-Regular;
+  color: rgba(0, 0, 0, 0.45);
+  letter-spacing: 0;
+}
+.loglist .log_bg {
+  width: 4rem;
+  height: 2.37333333rem;
+  overflow: hidden;
+  margin-right: 0.53333333rem;
+}
+.loglist .log_bg img {
+  width: 4rem;
+  height: auto;
+  display: inline-block;
+  background: url(../../../public/image/noData.png) no-repeat center center;
+  background-size: 72% 92%;
+  object-fit: cover;
+}
+.loglist .log_article .intro {
+  display: flex;
+  justify-content: start;
+}
+.loglist .log_article .intro .intro_user {
+  display: flex;
+  position: relative;
+  width: 1.6rem;
+}
+.loglist .log_article .intro .intro_user .intro_img {
+  height: 0.53333333rem;
+  width: 0.53333333rem;
+  position: absolute;
+  overflow: hidden;
+  align-self: flex-end;
+}
+.loglist .log_article .intro .intro_user .intro_img img {
+  height: 0.53333333rem;
+  width: 0.53333333rem;
+  border-radius: 50%;
+  border: 1px solid #E8E8E8;
+}
+.loglist .log_article .intro .intro_user div:nth-of-type(1) {
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+.loglist .log_article .intro .intro_user div:nth-of-type(2) {
+  top: 0;
+  left: 25%;
+  z-index: 3;
+}
+.loglist .log_article .intro .intro_user div:nth-of-type(3) {
+  top: 0;
+  left: 50%;
+  z-index: 2;
+}
+.loglist .log_article .intro .intro_user div:nth-of-type(4) {
+  top: 0;
+  left: 75%;
+  z-index: 1;
+}
+.loglist .log_article .intro .intro_user div:nth-of-type(5) {
+  top: 0;
+  left: 100%;
+}
+.loglist .log_article .time {
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 0.26666667rem;
+}
+.loglist .log_article .teacher {
+  font-size: 12px;
+  color: #333333;
+  margin-bottom: 0.4rem;
+}
+.loglist .point {
+  position: absolute;
+  top: -0.13333333rem;
+  left: -0.13333333rem;
+  height: 0.26666667rem;
+  width: 0.26666667rem;
+  border-radius: 50%;
+  background: #1890FF;
+}
+.loglist .dailycard {
+  height: 3.09333333rem;
+  background: #fff;
+  display: flex;
+  padding: 0.37333333rem 0 0.34666667rem 0.26666667rem;
+  margin-bottom: 0.21333333rem;
+  box-sizing: border-box;
+  position: relative;
+  border: 1px dashed #E8E8E8;
+}
+.loglist .dailycard .log_article .time {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.45);
+}
+.loglist .dailycard .log_article .teacher {
+  font-size: 12px;
+  color: rgba(6, 6, 6, 0.45);
+}
+.loglist .draftcard {
+  height: 3.09333333rem;
+  background: #fff;
+  display: flex;
+  padding: 0.37333333rem 0 0.34666667rem 0.26666667rem;
+  margin-bottom: 0.21333333rem;
+  box-sizing: border-box;
+  position: relative;
+  border: 1px solid #E8E8E8;
+}
+.loglist .addbtn {
+  display: block;
+  position: fixed;
+  bottom: 1.6rem;
+  right: 0.53333333rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  line-height: 1.46666667rem;
+  background: #4A90E2;
+  border: 1px solid #E6E6E6;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  z-index: 1000;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+}

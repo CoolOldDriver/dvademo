@@ -1,0 +1,140 @@
+.edit {
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.45);
+  background: #fff;
+}
+.edit .header {
+  display: flex;
+  height: 1.65333333rem;
+  line-height: 1.65333333rem;
+  justify-content: space-between;
+  padding: 0 0.32rem;
+  text-align: center;
+  border-bottom: 1px solid #E9E9E9;
+}
+.edit .header a {
+  font-size: 14px;
+  color: #666666;
+  cursor: pointer;
+}
+.edit .header .date {
+  font-size: 18px;
+  color: #333333;
+}
+.edit .header .date .timeSelect {
+  font-size: 15px;
+  font-weight: bold;
+  color: #3388DD;
+}
+.edit .header .date .timeSelect .calendar {
+  font-size: 14px;
+  margin-left: 0.1rem;
+}
+.edit .header .selectCampus {
+  position: absolute;
+  right: 22%;
+}
+.edit .header .selectCampus a {
+  color: #3388DD;
+  font-weight: bold;
+  font-size: 13px;
+}
+.edit .header .btn {
+  display: block;
+  border-radius: 4px;
+  height: 0.85333333rem;
+  line-height: 0.85333333rem;
+  width: 1.81333333rem;
+  font-size: 14px;
+  color: #FFFFFF;
+  margin-top: 0.42666667rem;
+}
+.edit .header .btn.canPublish {
+  background: #1890FF;
+  border: 1px solid #1890FF;
+}
+.edit .header .btn.notPublish {
+  background: gray;
+  border: 1px solid gray;
+  opacity: 0;
+}
+.edit .cardbox {
+  border-bottom: 1px solid #E8E8E8;
+  margin-bottom: 0.21333333rem;
+}
+.edit .cardbox .cardutil {
+  text-align: right;
+  padding-right: 0.66666667rem;
+  margin-bottom: 0.21333333rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.edit .cardbox .cardutil a {
+  line-height: 0.58666667rem;
+}
+.edit .cardbox .cardutil a.border::after {
+  content: "";
+  width: 1px;
+  margin: 0 0.10666667rem;
+  border-right: 1px solid #E8E8E8;
+}
+.edit .cardbox .cardutil .inline {
+  display: inline-block;
+  line-height: 0.58666667rem;
+}
+.edit .cardbox .cardutil .cardMore {
+  position: relative;
+  line-height: 0.58666667rem;
+}
+.edit .cardbox .cardutil .cardMore i {
+  margin-right: 5px;
+}
+.edit .cardbox .cardutil .cardMore div {
+  text-align: center;
+  width: 100px;
+  background: #FFFFFF;
+  box-shadow: 0 0 4px 0 rgba(200, 200, 200, 0.65);
+  position: absolute;
+  top: 0.66666667rem;
+  left: -40px;
+  line-height: 40px;
+  display: flex;
+  flex-direction: column;
+  z-index: 99;
+}
+.edit .nomore {
+  color: rgba(0, 0, 0, 0.25);
+  text-align: center;
+  line-height: 20px;
+  padding-bottom: 1.5rem;
+}
+.edit .addnew {
+  padding: 0 0.66666667rem;
+  text-align: center;
+  margin-bottom: 0.42666667rem;
+}
+.edit .addnew div.btn {
+  border: 1px dashed #E8E8E8;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.45);
+}
+.ant-tabs-nav {
+  width: 100%;
+  display: flex;
+  height: 1.38666667rem;
+}
+.ant-tabs-tab {
+  flex: 1;
+  width: 100%;
+  text-align: center;
+}
+.ant-tabs-nav .ant-tabs-tab-active {
+  width: 100%;
+}
+.ant-tabs-bar {
+  margin-bottom: 0.21333333rem;
+  background: #fff;
+}

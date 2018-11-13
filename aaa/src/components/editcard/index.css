@@ -1,0 +1,33 @@
+.editcard {
+  font-family: PingFangSC-Regular;
+  color: rgba(0, 0, 0, 0.45);
+  padding-bottom: 0.3rem;
+}
+.editcard .content {
+  padding: 0 0.66666667rem;
+  line-height: 20px;
+  font-size: 12px;
+  margin-bottom: 0.21333333rem;
+}
+.editcard .image {
+  padding: 0 0.66666667rem;
+  display: flex;
+}
+.editcard .image .imagebox {
+  width: 1.06666667rem;
+  height: 1.06666667rem;
+  margin-right: 0.21333333rem;
+}
+.editcard .image .imagebox img {
+  width: 1.06666667rem;
+  height: 1.06666667rem;
+}
+.editcard .avatorName {
+  padding: 0 0.66666667rem;
+  display: flex;
+  margin-top: 0.26666667rem;
+  font-size: 13px;
+}
+.editcard .avatorName em {
+  color: #3388DD;
+}

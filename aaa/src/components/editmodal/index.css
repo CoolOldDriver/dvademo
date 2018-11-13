@@ -1,0 +1,153 @@
+.edit-modal {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  background: #f1f2f3;
+  z-index: 1000;
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+}
+.edit-modal .bookfix {
+  position: absolute;
+  right: 0.2rem;
+  color: #1890ff;
+  top: 0.2rem;
+}
+.edit-modal .imgList {
+  width: 100%;
+  margin: 0.2rem 0.1rem 1.06666667rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.edit-modal .imgList .imageBox {
+  height: 2.26666667rem;
+  width: 2.26666667rem;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  margin: 0.13333333rem;
+  position: relative;
+}
+.edit-modal .imgList .imageBox img {
+  height: 2.26666667rem;
+  width: 2.26666667rem;
+}
+.edit-modal .imgList .imageBox i {
+  position: absolute;
+  right: -0.21333333rem;
+  top: -0.26666667rem;
+  z-index: 1000;
+}
+.edit-modal .big-modal {
+  display: flex;
+}
+.edit-modal .big-modal .aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 0.93333333rem;
+  text-align: center;
+}
+.edit-modal .big-modal .aside a {
+  width: 0.93333333rem;
+  display: inline-block;
+}
+.edit-modal .editmodal {
+  display: flex;
+  z-index: 3;
+  /*bottom: 0;
+        left: 0;
+        right: 0;*/
+  width: 100%;
+  line-height: 1.06666667rem;
+  max-height: 40vh;
+  margin: auto;
+  background: rgba(241, 242, 243, 0.4);
+}
+.edit-modal .editmodal textarea {
+  width: 7.68rem;
+  border-radius: 0;
+  margin-top: 0.10666667rem;
+}
+.edit-modal .editmodal textarea.specialArea {
+  width: 98vw;
+  margin-left: 0.1rem;
+}
+.edit-modal .editmodal a {
+  margin-left: 0.13333333rem;
+  font-size: 12px;
+  color: #3388DD;
+}
+.edit-modal .bigModal {
+  z-index: 3;
+  width: 96%;
+  margin: 0 auto;
+}
+.edit-modal .bigModal textarea {
+  width: 100%;
+  border-radius: 0;
+  margin-top: 0.10666667rem;
+  border: none;
+}
+.edit-modal .bigModal textarea.smallHeight {
+  max-height: 0.66666667rem;
+}
+.edit-modal .bigModal textarea.bigHeight {
+  min-height: 2rem;
+}
+.edit-modal .bigModal a {
+  margin-left: 0.13333333rem;
+  font-size: 12px;
+  color: #3388DD;
+}
+.edit-modal .clearfix {
+  width: 100%;
+  margin: 0 auto;
+  align-self: center;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+}
+.edit-modal .clearfix .ant-upload.ant-upload-select-picture-card {
+  height: 16px;
+  width: 16px;
+  padding: 0;
+  border: none;
+  background: rgba(241, 242, 243, 0.4);
+}
+.edit-modal .clearfix .ant-upload-list,
+.edit-modal .clearfix .ant-upload-list-picture-card {
+  display: none;
+}
+.edit-modal .clearfix .ant-form-item-row {
+  margin: -100px;
+}
+.edit-modal .operButton {
+  text-align: right;
+  margin-right: 0.3rem;
+  margin-top: 0.1rem;
+}
+.mask {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 998;
+  display: none;
+}
+.bigHeight {
+  min-height: 2rem;
+}
+.smallHeight {
+  min-height: 1rem;
+}
+.container_body {
+  /*position: absolute;
+    -webkit-overflow-scrolling: touch;*/
+}

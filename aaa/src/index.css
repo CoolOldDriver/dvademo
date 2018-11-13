@@ -1,0 +1,24 @@
+
+html, body, :global(#root) {
+  margin: 0;
+  padding: 0;
+  background: #f1f2f3 !important;
+  -webkit-font-smoothing: antialiased;
+  font-family: PingFangSC,PingFangSC-Regular,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 732935 */
+  src: url('//at.alicdn.com/t/font_732935_67f5pyysxty.eot');
+  src: url('//at.alicdn.com/t/font_732935_67f5pyysxty.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_732935_67f5pyysxty.woff') format('woff'),
+  url('//at.alicdn.com/t/font_732935_67f5pyysxty.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_732935_67f5pyysxty.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}

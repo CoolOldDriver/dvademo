@@ -1,0 +1,132 @@
+.dailyLog{
+    font-family: PingFangSC-Regular;
+    position: relative;
+    background:#f1f2f3;
+    .dailylogheader{
+        border-bottom:1px solid #E8E8E8;
+        background:#fff;
+    }
+    .header{
+        height:64/37.5rem;
+        line-height:64/37.5rem;
+        position: relative;
+        // display: flex;
+        // justify-content: space-around;
+        div:nth-of-type(1){
+            i{
+                color: #3388DD;
+                font-size:18px;
+            }
+        }
+        .arrowRight{
+            position:absolute;
+            left: 20/37.5rem;
+            top: 0;
+            z-index:14;
+        }
+        .data{
+            text-align:center;
+            position:relative;
+            z-index:11;
+            .timeSelect{
+                font-size:15px;
+                font-weight:bold;
+                color: #3388DD;
+                .calendar{
+                    font-size:14px;
+                    margin-left:0.1rem;
+                }
+            }
+        }
+        .seleCampus {
+            position: absolute;
+            top: 0;
+            right: 42/37.5rem;
+            font-size: 14px;
+            z-index:15;
+            display: inline-block;
+            font-weight: bold;
+        }
+        .packswitch{
+            position:absolute;
+            top:0;
+            right:20/37.5rem;
+            z-index:99;
+        }
+    }
+    .packcontent{
+        height:85/37.5rem;
+        padding-left:48/37.5rem;
+        font-size:14px;
+        margin-bottom:7/37.5rem;
+        color: rgba(0,0,0,0.85);
+
+        .forday{
+            display: flex;
+            margin-top:6/37.5rem;
+            div::after{
+                content:",";
+                color: #3388DD
+            }
+            div:last-child::after{
+                content:" ",
+            }
+            span.write{
+                color: #3388DD;
+            }
+        }
+        .reader{
+            display:flex;
+            margin-top:6/37.5rem;
+            span{
+                margin-left:8/37.5rem;
+                color: #666666;
+            }
+            .readerImageBox{
+                display: flex;
+                .readerImage{
+                    width:20/37.5rem;
+                    height:20/37.5rem;
+                    overflow: hidden;
+                    img{
+                        width:100%;
+                        border-radius:50%;
+                        border: 1px solid #E8E8E8;
+                    }
+                }
+            }
+        }
+    }
+    .dailylogContent{
+        background:#f1f2f3;
+    }
+    .language_icon{
+      display: inline-block;
+      position: absolute;
+      color:#1890ff;
+      font-size: 17px;
+      cursor: pointer;
+      left: 1.5rem;
+      z-index: 99;
+      top: 0;
+    }
+}
+.ant-tabs-nav {
+    width:100%;
+    display: flex
+}
+.ant-tabs-tab{
+    flex:1;
+    width:100%;
+    text-align: center;
+}
+.ant-tabs-nav .ant-tabs-tab-active{
+    width:100%;
+}
+.ant-tabs-bar{
+    margin-bottom:8/37.5rem;
+    background:#fff;
+}
+.ant-tabs-nav .ant-tabs-tab{
+    padding:3.2%;
+}

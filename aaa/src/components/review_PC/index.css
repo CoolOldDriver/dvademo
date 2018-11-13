@@ -1,0 +1,192 @@
+.reviewlist {
+    background: #fff;
+    padding: 0 0.64rem;
+    width: 100%;
+  }
+  .reviewlist .reviewbox {
+    overflow: hidden;
+    padding-top: 0.69333333rem;
+    border-top: 1px solid #E8E8E8;
+  }
+  .reviewlist div:first-child {
+    border-top: none;
+  }
+  .reviewlist .space {
+    display: flex;
+    justify-content: space-around;
+  }
+  .reviewlist .reviewHead {
+    margin-bottom: 0.32rem;
+  }
+  .reviewlist .reviewHead .Image {
+    display: flex;
+    justify-content: space-between;
+  }
+  .reviewlist .reviewHead .left {
+    display: flex;
+  }
+  .reviewlist .reviewHead .good {
+    color: #3388DD;
+  }
+  .reviewlist .reviewHead .star {
+    align-self: flex-end;
+  }
+  .reviewlist .reviewHead .first {
+    margin-right: 0.26666667rem;
+  }
+  .reviewlist .reviewHead .reviewImage {
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+    border: 1px solid #E8E8E8;
+    overflow: hidden;
+  }
+  .reviewlist .reviewHead .reviewImage img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  .reviewlist .reviewHead span {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.85);
+    text-align: left;
+    line-height: 24px;
+    margin-left: 0.05333333rem;
+  }
+  .reviewlist .reviewHead .respond {
+    display: flex;
+    align-items: center;
+    margin-right: 0.21333333rem;
+  }
+  .reviewlist .reviewHead .respond .icon {
+    width: 0;
+    height: 0;
+    border: 3px solid transparent;
+    border-left-color: rgba(0, 0, 0, 0.45);
+  }
+  .reviewlist .reviewContent {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.45);
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 22px;
+  }
+  .reviewlist .reviewUtil {
+    display: flex;
+    text-align: right;
+    height: 0.64rem;
+    line-height: 0.64rem;
+    justify-content: flex-end;
+  }
+  .reviewlist .reviewUtil .util {
+    margin-left: 0.42666667rem;
+  }
+  .reviewlist .reviewHead > div {
+    display: flex;
+    align-items: center;
+  }
+  .review-modal {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+  }
+  .review-modal .shade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    /*兼容IE8及以下版本浏览器*/
+    filter: alpha(opacity=0);
+  }
+  .review-modal .modal {
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    background: #f1f2f3;
+    padding: 0.1rem 0 0.2rem;
+    margin: 0;
+    flex: 1;
+  }
+  .review-modal .modal div {
+    text-align: center;
+    flex: 1;
+  }
+  .review-modal .modal div i {
+    margin-right: 0.10666667rem;
+  }
+  .review-modal .modal div span {
+    display: inline-block;
+    color: #666666;
+  }
+  .review-modal .modal textarea {
+    width: 84vw;
+    margin-left: 2%;
+    border-radius: 0;
+  }
+  .review-modal .modal a {
+    margin-left: 0.13333333rem;
+    font-size: 12px;
+    display: inline-block;
+  }
+  .review-modal .modal a.btn {
+    background: #3388DD;
+    color: #fff;
+    text-align: center;
+    height: 31px;
+    line-height: 31px;
+    padding: 0 0.18666667rem;
+    display: inline-block;
+    margin-top: 7px;
+    margin-right: 2%;
+    border-radius: 5px;
+  }
+  .review-modal .modal .ant-form-item {
+    margin: 0;
+  }
+  .review-modal .modal .input-file {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    width: auto;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.45);
+    text-decoration: none;
+  }
+  .review-modal .modal .input-file input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    background-color: #fff;
+    transform: translate(-300px, 0px) scale(4);
+    height: 40px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  .review-modal .modal .file {
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .reviewModal i {
+    margin-right: 0;
+  }
+  

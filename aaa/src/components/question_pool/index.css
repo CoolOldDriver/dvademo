@@ -1,0 +1,111 @@
+.poollist {
+  background: #f1f2f3;
+}
+.poollist .ant-tabs-tabpane {
+  padding: 0 0.18666667rem;
+}
+.poollist .ant-tabs-tabpane .card:last-child {
+  margin-bottom: 0;
+}
+.poollist .nomore {
+  color: rgba(0, 0, 0, 0.25);
+  text-align: center;
+  line-height: 20px;
+}
+.card {
+  font-family: PingFangSC-Regular;
+  padding-top: 0.56rem;
+  background: #fff;
+  margin-bottom: 0.37333333rem;
+  width: 100%;
+  border: 1px solid #E8E8E8;
+}
+.card .intro {
+  padding: 0 0.66666667rem;
+  display: flex;
+  margin-bottom: 0.53333333rem;
+}
+.card .intro .stateMark {
+  width: 1.28rem;
+  height: 1.28rem;
+  line-height: 1.01052632rem;
+  border-radius: 0.10666667rem;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.97);
+  text-align: center;
+  line-height: 1.28rem;
+  background: #3388DD;
+  margin-right: 0.32rem;
+}
+.card .intro .solved {
+  background: #CCCCCC;
+}
+.card .intro .content {
+  width: 6.61333333rem;
+  height: 1.76rem;
+  line-height: 0.58666667rem;
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.45);
+}
+.card .createTime {
+  padding: 0 0.66666667rem;
+  margin-bottom: 0.26666667rem;
+  color: rgba(0, 0, 0, 0.65);
+}
+.card .createTime span {
+  color: rgba(0, 0, 0, 0.85);
+}
+.card .state {
+  padding: 0 0.66666667rem;
+  color: #ccc;
+  font-size: 10px;
+  margin-bottom: 0.8rem;
+}
+.card .utilBox {
+  width: 100%;
+  height: 1.22666667rem;
+  line-height: 1.22666667rem;
+  display: flex;
+  border-top: 1px solid #E8E8E8;
+  border-bottom: 1px solid #E8E8E8;
+  font-size: 14px;
+}
+.card .utilBox div {
+  text-align: center;
+  flex: 1;
+  position: relative;
+}
+.card .utilBox div i {
+  margin-right: 0.10666667rem;
+}
+.card .utilBox div span {
+  display: inline-block;
+  color: #666666;
+}
+.card .utilBox .morecontent {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  box-shadow: 0 0 4px 0 rgba(200, 200, 200, 0.65);
+  text-align: center;
+}
+.card .utilBox .morecontent a {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.45);
+  line-height: 22px;
+  width: 2.66666667rem;
+  margin: 0.26666667rem auto;
+  text-align: left;
+}
+.card .utilBox .morecontent a i {
+  margin-right: 0.24rem;
+}
+.card .utilBox div.border::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 36%;
+  width: 1px;
+  height: 0.37333333rem;
+  background: #E8E8E8;
+}
